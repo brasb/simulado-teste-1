@@ -1,0 +1,92 @@
+/*
+    TODO:
+    - cor hyperlink;
+    - vídeo;
+    - quote.
+*/
+
+html {
+    background-color: #d1cfe2;
+    color: #111111;
+}
+
+#home_img {
+    display: flex;
+    justify-content: center;
+}
+
+#home_img img {
+    width: 95%;
+}
+
+.text_container  {
+    border: 2px solid #111111;
+    border-radius: 20px;
+    background-color: #7ec4cf;
+    margin-bottom: 3vh;
+    width: 95%;
+    margin: 0 auto;
+}
+
+#name {
+    margin-bottom: 2vh;
+}
+
+#name h1 {
+    text-align: left;
+    padding-left: 2vw;
+}
+
+#call_to_action {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#call_to_action button {
+    padding: 2%;
+    background-color: #f2e1af;
+    border: 3px solid #111111;
+    border-radius: 30px;
+}
+
+#content_container {
+    width: 95%;
+    margin: auto;
+}
+
+#video {
+    background-color: red;
+    float: left;
+    width: 50%;
+    height: 100px;
+}
+
+#video iframe {
+    width: 89%;
+}
+
+#quotes {
+    background-color: blue;
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+
+#footer_list {
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    padding-right: 3vw;
+}
+
+.undotted {
+    list-style: none;
+}
+
+#footer_list_container {
+    margin-top: 1vh;
+}
