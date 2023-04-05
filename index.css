@@ -1,9 +1,24 @@
 /*
     TODO:
     - cor hyperlink;
-    - vídeo;
-    - quote.
-*/
+    - padding botão.
+
+    .container {
+      display: flex;
+      align-items: center;
+    }
+    .paragraph {
+      flex: 1;
+    }
+    .video {
+      flex: 1;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+
+    */
 
 html {
     background-color: #d1cfe2;
@@ -40,8 +55,8 @@ html {
 #call_to_action {
     display: flex;
     justify-content: center;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 
 #call_to_action button {
@@ -52,26 +67,41 @@ html {
 }
 
 #content_container {
+	position: relative;
     width: 95%;
-    margin: auto;
+	height: 100px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+    padding-top: 3vh;
+    padding-bottom: 5vh;
 }
 
 #video {
-    background-color: red;
-    float: left;
-    width: 50%;
-    height: 100px;
+    /* width: 100%;
+    height: 600px;
+    
+    z-index: -100; */
+    object-fit: cover;
+    /* background-color: blue; */
 }
 
 #video iframe {
-    width: 89%;
+    /* object-fit: cover; */
+    /* padding: 2vw; */
+    background-color: #ffffff33;
+    width: 100%;
+    height: 100%;
+    
 }
 
 #quotes {
-    background-color: blue;
-    float: left;
-    width: 200px;
-    height: 100px;
+    padding-left: 10px;
+    margin-left: 20px;
+    width: 60%;
+    border: 2px solid #11111122;
+    border-radius: 10px;
+    width: 40%;
 }
 
 #footer_list {
